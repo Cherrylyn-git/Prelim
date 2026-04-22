@@ -19,7 +19,7 @@ def check_pass_or_fail(grade):
 
 
 def save_student_record(first_name, last_name, grade, letter_grade, status):
-    with open(r'C:\Users\USER\OneDrive\Desktop\Grade.txt', "a") as file:
+    with open('C:\Users\USER\OneDrive\Desktop\Grade.txt', "a") as file:
         file.write(f"Name: {first_name} {last_name} | Grade: {grade} | Letter: {letter_grade} | Status: {status}\n")
 
 
